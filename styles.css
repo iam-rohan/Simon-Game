@@ -3,11 +3,17 @@ body {
   background-color: #011f3f;
 }
 
-#level-title {
+#level-title,
+.end-note {
   font-family: "Press Start 2P", cursive;
   font-size: 3rem;
-  margin: 5%;
+  margin: 5% 5% 3% 5%;
   color: #fef2bf;
+}
+
+.end-note {
+  margin-top: 80px;
+  font-size: 1.1rem;
 }
 
 .container {
